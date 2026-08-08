@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta
+      name="description"
+      content="Pagina oficial de apresentação portfolio de Roberta Alves"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+      integrity="sha512-ApSLB1Pd3/bZN8fWB/RG9YhN/7bd9Hkf3AGaE2mPfebjrxagjuBtx2GcgdqIlJkUzwylBo61r9Xa9NmgBI0swA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Roberta Alves 3.0</title>
+  </head>
+  <body>
+    <header>
+      <nav id="menu">
+        <a href="#" id="logo">RA</a>
+
+        <ul id="menuList">
+          <li class="nav-item active"><a href="#about-me">Sobre</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projetos</a></li>
+          <li class="nav-item"><a href="#comments">Comentários</a></li>
+          <li class="nav-item"><a href="#contact">Contato</a></li>
+        </ul>
+
+        <button id="btn_mobile" aria-label="Abrir menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile_menu">
+        <ul id="mobile_nav_list">
+          <li class="nav-item"><a href="#about-me">Sobre</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projetos</a></li>
+          <li class="nav-item"><a href="#comments">Comentários</a></li>
+          <li class="nav-item"><a href="#contact">Contato</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section id="hero" class="hero">
+        <div class="container">
+          <div class="hero-left">
+            <span class="eyebrow">
+              Disponível para oportunidades // São Paulo
+            </span>
+            <h1>Roberta<br /><span>Dev.</span></h1>
+            <!--Botão como link tag a //Só usar <Button quando houver uma ação do JS>-->
+            <a href="#contact" class="btn-primary">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="#fff"
+                class="bi bi-arrow-up-right-square"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707z"
+                />
+              </svg>
+
+              Vamos Conversar
+            </a>
+
+            <div class="hero-features">
+              <div class="feature">
+                <i class="fa-solid fa-code"></i>
+                <span>Código Limpo</span>
+              </div>
+              <div class="feature">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <span>Responsivo</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <div class="hero-visual">
+              <h2>Do Volante <br />para o Código</h2>
+              <p>
+                <strong>Front-End Developer</strong> em transição de carreira
+                criando experiências web modernas, responsivas e acessíveis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about-me" class="about-me">
+        <div class="container">
+          <div class="about-left">
+            <span class="eyebrow"> Minha trajetória </span>
+
+            <h2>Da operação ao <strong>front-end</strong></h2>
+            <p>
+              Vim da supervisão operacional no setor aeroportuário, onde aprendi
+              a lidar com processos, pessoas, pressão e responsabilidade pelo
+              resultado.
+            </p>
+            <p>
+              Depois, como motorista de aplicativo, desenvolvi na prática algo
+              que hoje levo para o front-end: entender o problema real, adaptar
+              a rota e entregar uma experiência melhor para quem está do outro
+              lado.
+            </p>
+            <p>
+              Hoje curso ADS na ENIAC e desenvolvo projetos próprios, como o
+              <strong>Drive Flow </strong>, um app de gestão financeira criado a
+              partir de uma dor que vivi de perto.
+            </p>
+            <p>
+              Busco minha primeira oportunidade em front-end para transformar
+              essa bagagem em valor real dentro de uma equipe.
+            </p>
+            <p class="mobile-p">
+              Vim da supervisão operacional no setor aeroportuário e trouxe
+              comigo o que aprendi lá: atenção a processos, foco no usuário e
+              responsabilidade com o resultado. Como motorista de aplicativo
+              aprendi na prática o que é<strong>
+                resolver problemas com o que você tem</strong
+              >, adaptar rota quando o caminho muda e manter a calma sob
+              pressão.
+            </p>
+          </div>
+
+          <div class="about-right">
+            <img
+              src="assets/roberta-foto-otimizada.jpg"
+              alt="Foto profissional Roberta Alves"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="skills">
+        <div class="container">
+          <div class="skills-header">
+            <span class="eyebrow">Minhas Skills</span>
+
+            <h2>Tecnologia construída com <span>experiência real.</span></h2>
+
+            <p class="skills-description">
+              Minha maior habilidade não é apenas escrever código. É entender
+              problemas, organizar soluções e transformar experiência prática em
+              interfaces intuitivas, acessíveis e funcionais.
+            </p>
+          </div>
+
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>💻 Front-End</h3>
+
+              <div class="skill-tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+                <span>Responsividade</span>
+                <span>Flexbox</span>
+                <span>Grid Layout</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <h3>🎨 Interface & UX</h3>
+
+              <div class="skill-tags">
+                <span>UI Design</span>
+                <span>UX</span>
+                <span>Acessibilidade</span>
+                <span>Hierarquia Visual</span>
+                <span>Design Responsivo</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <h3>🛠 Ferramentas</h3>
+
+              <div class="skill-tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>VS Code</span>
+                <span>Figma</span>
+                <span>Chrome DevTools</span>
+              </div>
+            </article>
+
+            <article class="skill-card">
+              <h3>🚀 Competências</h3>
+
+              <div class="skill-tags">
+                <span>Resolução de Problemas</span>
+                <span>Organização</span>
+                <span>Aprendizado Contínuo</span>
+                <span>Comunicação</span>
+                <span>Adaptabilidade</span>
+                <span>Foco no Usuário</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="projects">
+        <div class="container">
+          <div class="projects-header">
+            <span class="eyebrow">Meus Projetos</span>
+            <h2>
+              Projetos desenvolvidos para resolver problemas reais e consolidar
+              minha evolução como desenvolvedora Front-End.
+            </h2>
+          </div>
+          <!--SESSÃO DOS CARDS-->
+          <div class="projects-content">
+            <div class="projects-grid">
+              <article class="project-card">
+                <img
+                  src="assets/driveflow.png"
+                  alt="Projeto Drive Flow"
+                  class="project-thumbanil"
+                />
+                <h3>Drive Flow</h3>
+              </article>
+
+              <article class="project-card">
+                <h3>Unidos Amém</h3>
+              </article>
+
+              <article class="project-card">
+                <h3>DF Tapeçaria Stand & Cenografia</h3>
+              </article>
+
+              <article class="project-card">
+                <h3>Minha Landing Page</h3>
+              </article>
+            </div>
+
+            <!--A SECÃO COM A DESCRIÇÃO DOS PROJETOS-->
+
+            <div class="project-preview">
+              <img
+                src="assets/driveflow.png"
+                alt="Projeto Drive Flow"
+                class="project-image"
+              />
+
+              <h3>Drive Flow</h3>
+              <p>Aplicativo de gestão financeira</p>
+              <div class="project-techs">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Ver Projeto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="comments" class="comments">
+        <div class="container">
+          <div class="comments-header">
+            <span class="eyebrow">Comentários</span>
+            <h2>Comentários de usuários que utilizam meus projetos</h2>
+          </div>
+          <div class="comments-list">
+            <article class="comment-card">
+              <div class="comment-left">
+                <img
+                  src="#"
+                  alt="Avatar"
+                  class="image-avatar"
+                  loading="lazy"
+                /><!--Avatar-->
+                <h3>Danusa Pinfildi</h3>
+                <p>Projeto Drive Flow</p>
+                <div class="rate-comment">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="comment-right">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam odio officia ad debitis expedita hic quibusdam
+                </p>
+              </div>
+            </article>
+            <article class="comment-card">
+              <div class="comment-left">
+                <img
+                  src="#"
+                  alt="Avatar"
+                  class="image-avatar"
+                  loading="lazy"
+                /><!--Avatar-->
+                <h3>Tiago Brito</h3>
+                <p>Projeto Drive Flow</p>
+                <div class="rate-comment">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="comment-right">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam odio officia ad debitis expedita hic quibusdam
+                </p>
+              </div>
+            </article>
+            <article class="comment-card">
+              <div class="comment-left">
+                <img
+                  src="#"
+                  alt="Avatar"
+                  class="image-avatar"
+                  loading="lazy"
+                /><!--Avatar-->
+                <h3>Steffany Puras</h3>
+                <p>Projeto Unidos Amém</p>
+                <div class="rate-comment">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="comment-right">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam odio officia ad debitis expedita hic quibusdam
+                </p>
+              </div>
+            </article>
+            <article class="comment-card">
+              <div class="comment-left">
+                <img
+                  src="#"
+                  alt="Avatar"
+                  class="image-avatar"
+                  loading="lazy"
+                /><!--Avatar-->
+                <h3>Daniel Fidelis</h3>
+                <p>Projeto DF Tapeçaria Stand´s</p>
+                <div class="rate-comment">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+              <div class="comment-right">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Aperiam odio officia ad debitis expedita hic quibusdam
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <div>
+            <h2>formulario de contato</h2>
+            <form type="text"><label>Contato</label></form>
+          </div>
+          <form></form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span class="eyebrow">&copy;Roberta Alves</span>
+      <div class="contact">
+        <span class="eyebrow">Entre em Contato</span>
+      </div>
+      <div class="contact-list">
+        <i class="fa-brands fa-github"><a href="#">GitHub</a></i
+        ><br />
+        <i class="fa-solid fa-envelope"><a href="#">Email</a></i
+        ><br />
+        <i class="fa-brands fa-square-linkedin"><a href="#">Linkedin</a></i>
+      </div>
+    </footer>
+  </body>
+</html>
