@@ -385,10 +385,21 @@
       <section id="contact" class="contact">
         <div class="container">
           <div>
-            <h2>formulario de contato</h2>
-            <form type="text"><label>Contato</label></form>
+            <h2>Entre em contato</h2>
+            <p>Tem um projeto em mente? Vamos conversar.</p>
+            <form>
+              <label for="contact-name">Nome</label>
+              <input id="contact-name" name="name-area" type="text" required />
+              <label for="contact-text">Mensagem</label>
+              <textarea
+                id="contact-text"
+                name="contact-area"
+                required
+              ></textarea>
+              <button type="submit">Enviar</button
+              ><!--enviar a mensagem para meu zap-->
+            </form>
           </div>
-          <form></form>
         </div>
       </section>
     </main>
