@@ -1,3 +1,4 @@
+@import url("hero.css");
 *{
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@
     justify-content:space-between;
     align-items: center;
 
-    background: linear-gradient(90deg,var(--black),#6c1e1e);
+    background: linear-gradient(90deg,var(--black),#150909);
 
     padding: 0 2rem;
     border-bottom: 1px solid rgba(240, 240, 240, o.2);
