@@ -171,3 +171,6 @@
 .btn-primary:focus-visible{
     outline: 2px solid var(--cream);
 }
+.hero-features{
+    display: none;
+}

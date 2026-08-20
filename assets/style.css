@@ -1,4 +1,6 @@
 @import url("hero.css");
+@import url(aboutMe.css);
+
 *{
     margin: 0;
     padding: 0;
@@ -62,4 +64,32 @@
 }
 .nav-item a:hover{
     color:var(--red);
+}
+
+
+.nav-item a{
+    position: relative;
+}
+
+.nav-item a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: var(--red);
+    transition: width 0.3s ease;
+}
+
+.nav-item a:hover::after,.nav a:focus::after{
+    width: 100%;
+}
+
+#btn_mobile{
+    display: none;
+}
+
+#mobile_menu{
+    display: none;
 }
