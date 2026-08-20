@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+#about-me{
+    
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cream);
+    
+}
+ 
+#about-me .container {
+    min-height: 100%;
+    gap: 40px;
+}
+
+.about-left{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.eyebrow{
+    color: var(--red);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.about-left h2{
+
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 1rem;
+}
+
+.about-left p:not(.mobile-p):last-of-type {
+    margin-bottom: 0;
+}
+
+.about-left h2 strong{
+    color:var(--red);
+}
+
+.about-left p{
+    font-family: "DM Sans", sans-serif;
+    max-width: 520px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+
+
+}
+
+
+.about-right {
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 50%;
+
+}
+.about-right img {
+    width: 430px;
+    height:500px;
+    object-fit: cover;/*Só funciona com altura e largura definidos*/
+    object-position: center;/*controla qual parte da imagem fica visível quando existe corte.*/
+
+    border-radius: 12px;
+    border:1px solid var(--border);
+    box-shadow:0 8px 24px rgba(0,0,0,0.12);
+    
+    
+    
+    
+    max-width: 100%;/*importante para responsividade*/
+
+
+}
+
+.mobile-p{
+    display: none;
+}
