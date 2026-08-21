@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#skills{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cream);
+}
+
+#skills .container{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    justify-content: center;
+
+}
+
+#skills .skills-header{
+    width: 100%;
+}
+
+.eyebrow{
+    color: var(--red);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+}
+
+.skills-header h2{
+    font-family: "Playfair Display", serif;
+    line-height: 1;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 1rem;
+}
+
+.skills-header strong{
+     color:var(--red);
+}
+
+.skills-header p{
+    font-family: "DM Sans", sans-serif;
+    max-width: 1100px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+#skills .skills-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:24px;
+}
+
+#skills .skill-card{
+    background-color:white;
+    padding: 24px;
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    box-shadow:0 8px 24px rgba(0,0,0,0.12) ;
+}
+
+.skill-tags {
+    font-family:"DM Sans", sans-serif;
+}

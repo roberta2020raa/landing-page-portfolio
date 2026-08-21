@@ -71,7 +71,7 @@
 
 }
 .about-right img {
-    width: 430px;
+    width: 420px;
     height:500px;
     object-fit: cover;/*Só funciona com altura e largura definidos*/
     object-position: center;/*controla qual parte da imagem fica visível quando existe corte.*/

@@ -24,7 +24,8 @@
     background: linear-gradient(90deg,var(--black),#150909);
      
 }
-.container{
+
+#hero .container{
     display: flex;
     flex-direction: row;
     align-items: center;
