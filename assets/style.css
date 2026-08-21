@@ -40,11 +40,14 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
-
     background: linear-gradient(90deg,var(--black),#150909);
-
     padding: 0 2rem;
     border-bottom: 1px solid rgba(240, 240, 240, o.2);
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
 }
 
 #logo{
