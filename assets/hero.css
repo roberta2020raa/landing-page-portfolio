@@ -5,16 +5,6 @@
     box-sizing: border-box;
 }
 
-:root{
-    --black:#0d0d0d;
-    --cream:#f5f0e8;
-    --red:#e84040;
-    --amber:#f5a623;
-    --cream-medium:#ede8db;
-    --text-light:#8a8a8a;
-    --border:#d0ccc0;
-    --text: #4a4a4a;
-}
 #hero{
     
 
