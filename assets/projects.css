@@ -9,7 +9,7 @@
 #projects{
     width: 100%;
     min-height: 100vh;/*depende diretamente da altura da janela*/
-    background-color: var(--cream);
+    background-color:var(--cream);
     padding-top: 52px;
     
 }
@@ -46,7 +46,6 @@
 #projects .projects-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    
     gap:24px;
     flex: 1;
     min-width: 0;
