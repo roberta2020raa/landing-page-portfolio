@@ -2,6 +2,7 @@
 @import url(aboutMe.css);
 @import url(skills.css);
 @import url(projects.css);
+@import url(comentarios.css);
 
 *{
     margin: 0;
