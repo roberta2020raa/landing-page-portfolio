@@ -134,9 +134,7 @@
               lado.
             </p>
             <p>
-              Hoje curso ADS na ENIAC e desenvolvo projetos próprios, como o
-              <strong>Drive Flow </strong>, um app de gestão financeira criado a
-              partir de uma dor que vivi de perto.
+              Hoje curso Análise e Desenvolvimento de Sistemas na faculdade ENIAC e desenvolvo projetos próprios, como o <strong>Drive Flow</strong>, um app de gestão financeira focado em motoristas de aplicativo, criado a partir de uma dor que vivi de perto.
             </p>
             <p>
               Busco minha primeira oportunidade em front-end para transformar
@@ -329,7 +327,7 @@
                 <div class="nameStar">
                   <h3>Danusa Pinfildi</h3>
                   <p>Projeto Drive Flow</p>
-                </div>  
+                </div>
                 <div class="rate-comment">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -340,8 +338,9 @@
               </div>
               <div class="comment-right">
                 <p>
-                 <span>"</span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Aperiam odio officia ad debitis expedita hic quibusdam.<span>"</span>
+                  <span>"</span>Lorem ipsum dolor sit amet, consectetur
+                  adipisicing elit. Aperiam odio officia ad debitis expedita hic
+                  quibusdam.<span>"</span>
                 </p>
               </div>
             </article>
@@ -387,7 +386,7 @@
                 <div class="nameStar">
                   <h3>Steffany Puras</h3>
                   <p>Projeto Unidos Amém</p>
-                </div>  
+                </div>
                 <div class="rate-comment">
                   <i class="fa-solid fa-star"></i>
                   <i class="fa-solid fa-star"></i>
@@ -412,7 +411,6 @@
                     class="image-avatar"
                     loading="lazy"
                   />
-                  
                 </div>
                 <div class="nameStar">
                   <h3>Daniel Fidelis</h3>
@@ -440,21 +438,36 @@
 
       <section id="contact" class="contact">
         <div class="container">
-          <div>
-            <h2>Entre em contato</h2>
-            <p>Tem um projeto em mente? Vamos conversar.</p>
-            <form>
-              <label for="contact-name">Nome</label>
-              <input id="contact-name" name="name-area" type="text" required />
-              <label for="contact-text">Mensagem</label>
-              <textarea
-                id="contact-text"
-                name="contact-area"
-                required
-              ></textarea>
-              <button type="submit">Enviar</button
-              ><!--enviar a mensagem para meu zap-->
-            </form>
+          <div class="contact-Left">
+            <div class="contact-header">
+              <span class="eyebrow">Contato</span>
+              <h2>Entre em contato</h2>
+              <p>Tem um projeto em mente? Vamos conversar.</p>
+            </div>  
+
+            <form class="formPrincipal">
+                <label for="contact-name">Nome</label>
+                <input
+                  id="contact-name"
+                  name="name-area"
+                  type="text"
+                  placeholder="Digite seu nome"
+                  required
+                />
+                <label for="contact-text">Mensagem</label>
+                <textarea
+                  id="contact-text"
+                  name="contact-area"
+                  placeholder="Digite sua mensagem"
+                  required
+                ></textarea>
+                <button type="submit">Enviar</button
+                ><!--enviar a mensagem para meu zap-->
+              </form>
+            </div>
+            <div class="contact-right">
+              <img src="assets/euMac.png" alt="foto profissional Roberta com notebook">
+            </div>
           </div>
         </div>
       </section>
@@ -476,6 +489,6 @@
         </a>
       </div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/script.js" defer></script>
   </body>
 </html>
