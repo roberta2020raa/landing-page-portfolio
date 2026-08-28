@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#contact{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 52px;
+    background-color: var(--cream);
+}
+
+.contact-header{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-header h2{
+    font-family:"Playfair Display", serif;
+    line-height: 1;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    margin-top: 1rem;
+    
+}
+
+.contact-header p{
+    font-family: "DM Sans", sans-serif;
+    max-width: 520px;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formPrincipal{
+   display: flex;
+   flex-direction: column;
+    gap: 16px;
+    max-width: 600px;
+}
+
+.formPrincipal label{
+    font-family: "DM Sans", sans-serif;
+}
+
+.formPrincipal input{
+    height: 32px;
+    
+
+}
+
+.formPrincipal textarea{
+    height: 60px;
+    resize:none;
+    
+}
+
+.formPrincipal input,.formPrincipal textarea{
+    border:1px solid var(--border);
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 8px;
+    outline: none;
+    font-family: "DM Sans", sans-serif;
+    
+}
+
+.formPrincipal input:focus {
+    border-color:var(--red);
+}
+
+.formPrincipal textarea:focus{
+    border-color:var(--red);
+}
+
+.contact-right{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contact-right img{
+    width: 420px;
+    height: 500px;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.formPrincipal button{
+    width: 120px;
+    align-self: flex-end;
+    background-color: var(--red);
+    color:var(--cream);
+    
+    padding:0.75rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease , transform 0.1s ease;
+}
+.formPrincipal button:hover{
+    background-color: #f05a5a;
+}
+
+.formPrincipal button:active{
+     transform: scale(0.98);
+}
+
+.formPrincipal button:focus-visible{
+     outline: 2px solid var(--cream);
+}
+
+.formPrincipal input::placeholder {
+    font-family: "DM Sans", sans-serif;
+}
+
+.formPrincipal textarea::placeholder{
+    font-family:"DM Sans", sans-serif;
+}
