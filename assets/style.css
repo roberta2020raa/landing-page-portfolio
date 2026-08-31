@@ -1,4 +1,4 @@
-@import url("hero.css");
+@import url(hero.css);
 @import url(aboutMe.css);
 @import url(skills.css);
 @import url(projects.css);
@@ -12,8 +12,13 @@
     box-sizing:border-box;
 }
 
+
+
+
+
 body{
     width: 100%;
+     overflow-x: hidden;
 }
 
 /*font-family: "Space Mono", monospace;*/
@@ -40,7 +45,7 @@ body{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 24px;/* para responsividade impede que em telas menores o conteúdo fique colado nas bordas*/
-    min-height: 100%;
+    /*min-height: 100%;*/
 
 }
 
@@ -50,7 +55,7 @@ body{
     align-items: center;
     background: linear-gradient(90deg,var(--black),#150909);
     padding: 0 2rem;
-    border-bottom: 1px solid rgba(240, 240, 240, o.2);
+    border-bottom: 1px solid rgba(240, 240, 240, 0.2);
     position: fixed;
     top:0;
     left:0;
@@ -100,13 +105,12 @@ body{
     position: absolute;
     left: 0;
     bottom: -5px;
-    width: 0;
     height: 2px;
     background: var(--red);
     transition: width 0.3s ease;
 }
 
-.nav-item a:hover::after,.nav a:focus::after{
+.nav-item a:hover::after,.nav-item a:focus::after{
     width: 100%;
 }
 
@@ -118,3 +122,34 @@ body{
     display: none;
 }
 
+@media (max-width:700px){
+    #menuList{
+        display:none;
+    }
+
+    #btn_mobile{
+        display:block;
+    }
+
+    #mobile_menu.active{
+        display: block;
+    }
+
+    #mobile_menu{
+        position: fixed;
+        top:43px;
+        left: 0;
+        width: 100%;    
+        background: linear-gradient(90deg, var(--black), #150909);
+        padding: 24px;
+
+    }
+    #mobile_nav_list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+        list-style: none;
+    }
+
+}
