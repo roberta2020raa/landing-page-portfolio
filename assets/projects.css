@@ -8,15 +8,17 @@
 
 #projects{
     width: 100%;
-    min-height: 100vh;/*depende diretamente da altura da janela*/
+    min-height: calc(100vh - 43px);
     background-color:var(--cream);
-    padding-top: 52px;
+     padding-top: 52px;
     
 }
 #projects .container{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
+    
 }
 
 #projects .projects-header{
@@ -32,6 +34,9 @@
     margin-bottom: 16px;
     margin-top: 1rem;
     max-width: 1000px;
+}
+.projects-header h2 strong{
+    color:var(--red);
 }
 
 #projects .projects-content{
@@ -138,4 +143,25 @@
     height: 80px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+@media(max-width:900px){
+    #projects .container{
+        
+        flex-direction: column;
+
+        padding-top: 70px;
+    }
+
+    #projects .projects-header h2{
+        font-size: 20px;
+    }
+
+    #projects .projects-grid{
+        grid-template-columns: 1fr;
+    }
+
+    #projects .project-preview{
+        width: 100%;
+    }
 }

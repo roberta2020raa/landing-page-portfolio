@@ -7,7 +7,7 @@
 
 #about-me{
     
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     background-color: var(--cream);
     
@@ -38,7 +38,7 @@
 
     font-family: "Playfair Display", serif;
     line-height: 1;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 16px;
     margin-top: 1rem;
@@ -90,4 +90,58 @@
 
 .mobile-p{
     display: none;
+}
+
+@media (max-width:900px) {
+    #about-me{
+        width: 100%;
+        min-height: 100vh;
+        height: auto;
+
+    }
+    #about-me .container{
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 70px;
+        
+    }
+
+    .about-left{
+        width: 100%;
+    }
+
+    .about-right{
+        display: none;
+    }
+
+    .about-left p:not(.mobile-p) {
+        display: none;
+    }
+
+    
+    .mobile-p {
+        display: block;
+    }
+
+}
+
+@media (max-width:400px){
+
+    #about-me .container{
+        flex-direction: column;
+        min-height: 100%;
+        padding-top:43px ;
+        
+        
+    }
+
+    .about-left p:not(.mobile-p) {
+        display: none;
+    }
+
+    
+    .mobile-p {
+        display: block;
+    }
+
 }

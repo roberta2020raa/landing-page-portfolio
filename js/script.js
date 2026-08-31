@@ -52,7 +52,13 @@ const projectTechs = document.querySelector(".project-techs");
 const image = document.querySelector(".project-preview .project-image");
 const projectLink = document.querySelectorAll(".project-links a");
 const projectCards = document.querySelectorAll(".project-card");
+const menuAberto = document.getElementById("btn_mobile");
+const menuList = document.getElementById("mobile_menu");
 
+menuAberto.addEventListener("click", () =>{
+    menuList.classList.toggle("active");
+    console.log(menuList);
+});
 
 //ação (o que queremos que aconteca ,normalmente acompanha uma função)//
 //forEach estamos percorrendo os elementos //
