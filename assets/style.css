@@ -4,6 +4,7 @@
 @import url(projects.css);
 @import url(comentarios.css);
 @import url(contato.css);
+@import url(footer.css);
 
 *{
     margin: 0;
