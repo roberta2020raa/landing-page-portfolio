@@ -1,3 +1,5 @@
+//ALERT//
+alert("Esta página está em processo de finalização. Ela foi publicada como parte do meu processo de aprendizado sobre deploy e publicação de aplicações.");
 //DADOS//
 const projectList = [
         {
@@ -57,7 +59,7 @@ const menuList = document.getElementById("mobile_menu");
 
 menuAberto.addEventListener("click", () =>{
     menuList.classList.toggle("active");
-    console.log(menuList);
+    
 });
 
 //ação (o que queremos que aconteca ,normalmente acompanha uma função)//
@@ -95,7 +97,7 @@ projectCards.forEach((card) =>{
 
     
      
-     console.log(projectLink);
+     
 });
 
 
